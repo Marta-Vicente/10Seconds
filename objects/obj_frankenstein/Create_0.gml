@@ -1,72 +1,78 @@
-/// @DnDAction : YoYo Games.Instances.Inherit_Event
-/// @DnDVersion : 1
-/// @DnDHash : 552896FB
 event_inherited();
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 0A6C6FA9
-/// @DnDComment : This variable stores the enemies max health $(13_10)and is used to scale the health bar
-/// @DnDArgument : "expr" "12"
-/// @DnDArgument : "var" "max_hp"
+// This variable stores the enemies max health 
+// and is used to scale the health bar
 max_hp = 12;
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 3E37A828
-/// @DnDComment : Set the enemies hp to its max hp
-/// @DnDArgument : "expr" "max_hp"
-/// @DnDArgument : "var" "hp"
+// Set the enemies hp to its max hp
 hp = max_hp;
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 5916670C
-/// @DnDComment : This variable stores the amount of money the player will get when they defeat it
-/// @DnDArgument : "expr" "5"
-/// @DnDArgument : "var" "my_value"
+// This variable stores the amount of money the player will get when they defeat it
 my_value = 5;
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 5D32B3F3
-/// @DnDComment : This variable holds the speed for the enemy
-/// @DnDArgument : "expr" "1.1"
-/// @DnDArgument : "var" "my_speed"
+// This variable holds the speed for the enemy
 my_speed = 1.1;
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 66F66E22
-/// @DnDComment : This variable holds the speed the enemy should move at when moving vertically
-/// @DnDArgument : "expr" "my_speed * 0.7"
-/// @DnDArgument : "var" "v_speed"
+// This variable holds the speed the enemy should move at when moving vertically
 v_speed = my_speed * 0.7;
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 230176B1
-/// @DnDComment : These variables hold the sprite to use based on$(13_10)the enemies position.
-/// @DnDInput : 5
-/// @DnDArgument : "expr" "spr_frankenstein_walk_side"
-/// @DnDArgument : "expr_1" "spr_frankenstein_walk_up"
-/// @DnDArgument : "expr_2" "spr_frankenstein_walk_down"
-/// @DnDArgument : "expr_3" "obj_frankenstein_defeat_side"
-/// @DnDArgument : "expr_4" "obj_frankenstein_defeat_down"
-/// @DnDArgument : "var" "walk_side_sprite"
-/// @DnDArgument : "var_1" "walk_up_sprite"
-/// @DnDArgument : "var_2" "walk_down_sprite"
-/// @DnDArgument : "var_3" "defeat_side_object"
-/// @DnDArgument : "var_4" "defeat_down_object"
+// These variables hold the sprite to use based on
+// the enemies position.
 walk_side_sprite = spr_frankenstein_walk_side;
 walk_up_sprite = spr_frankenstein_walk_up;
 walk_down_sprite = spr_frankenstein_walk_down;
 defeat_side_object = obj_frankenstein_defeat_side;
 defeat_down_object = obj_frankenstein_defeat_down;
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 1ED53426
-/// @DnDArgument : "expr" "-190"
-/// @DnDArgument : "var" "health_offset_y"
 health_offset_y = -190;
+
+// Start creating a wave by creating an array and
+// filling it with zombies.
+enemy_array = array_create(5, obj_zombie);
+
+// Go through that new array and replace some zombies
+// with frankensteins (if you want to)
+enemy_array[4] = obj_frankenstein;
+
+// Use are constructor to create a wave struct where
+// the first argument is the enemy array we just created
+// and the second argument is the delay between each enemy spawning
+var _new_wave = new WaveData(enemy_array, room_speed * 3);
+
+
+// Start creating a wave by creating an array and
+// filling it with zombies.
+enemy_array = array_create(10, obj_zombie);
+
+// Go through that new array and replace some zombies
+// with frankensteins (if you want to)
+enemy_array[2] = obj_frankenstein;
+enemy_array[7] = obj_frankenstein;
+enemy_array[8] = obj_frankenstein;
+enemy_array[9] = obj_frankenstein;
+
+// Use are constructor to create a wave struct where
+// the first argument is the enemy array we just created
+// and the second argument is the delay between each enemy spawning
+var _new_wave = new WaveData(enemy_array, room_speed * 1.75);
+
+// Start creating a wave by creating an array and
+// filling it with zombies.
+enemy_array = array_create(20, obj_zombie);
+
+// Go through that new array and replace some zombies
+// with frankensteins (if you want to)
+enemy_array[2] = obj_frankenstein;
+enemy_array[7] = obj_frankenstein;
+enemy_array[8] = obj_frankenstein;
+enemy_array[9] = obj_frankenstein;
+enemy_array[15] = obj_frankenstein;
+enemy_array[16] = obj_frankenstein;
+enemy_array[17] = obj_frankenstein;
+enemy_array[18] = obj_frankenstein;
+enemy_array[19] = obj_frankenstein;
+
+// Use are constructor to create a wave struct where
+// the first argument is the enemy array we just created
+// and the second argument is the delay between each enemy spawning
+var _new_wave = new WaveData(enemy_array, room_speed * 1.55);

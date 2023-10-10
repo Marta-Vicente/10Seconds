@@ -5,11 +5,33 @@ event_inherited();
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 4301685C
+/// @DnDInput : 3
+/// @DnDArgument : "expr" "Path3"
+/// @DnDArgument : "expr_1" "Path2"
+/// @DnDArgument : "expr_2" "Path4"
+/// @DnDArgument : "var" "pathList[0]"
+/// @DnDArgument : "var_1" "pathList[1]"
+/// @DnDArgument : "var_2" "pathList[2]"
+pathList[0] = Path3;
+pathList[1] = Path2;
+pathList[2] = Path4;
+
+/// @DnDAction : YoYo Games.Random.Get_Random_Number
+/// @DnDVersion : 1
+/// @DnDHash : 715D1B83
+/// @DnDArgument : "var" "randomIndex"
+/// @DnDArgument : "type" "1"
+/// @DnDArgument : "max" "2"
+randomIndex = floor(random_range(0, 2 + 1));
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 1F80F2E2
 /// @DnDComment : Choose which path to follow
-/// @DnDArgument : "expr" "pth_level_1"
+/// @DnDArgument : "expr" "pathList[randomIndex]"
 /// @DnDArgument : "var" "level_path"
-level_path = pth_level_1;
+level_path = pathList[randomIndex];
 
 /// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1

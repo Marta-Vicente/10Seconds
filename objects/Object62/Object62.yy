@@ -1,21 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_frankenstein",
+  "name": "Object62",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Rooms",
+    "path": "folders/Rooms.yy",
   },
-  "parentObjectId": {
-    "name": "obj_enemy_parent",
-    "path": "objects/obj_enemy_parent/obj_enemy_parent.yy",
-  },
-  "persistent": false,
+  "parentObjectId": null,
+  "persistent": true,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -31,9 +28,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_frankenstein_walk_side",
-    "path": "sprites/spr_frankenstein_walk_side/spr_frankenstein_walk_side.yy",
+    "name": "spr_popup",
+    "path": "sprites/spr_popup/spr_popup.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
