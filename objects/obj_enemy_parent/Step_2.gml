@@ -57,3 +57,26 @@ if(hp <= 0)
 	/// @DnDParent : 2F386CD4
 	instance_destroy();
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 58001566
+/// @DnDArgument : "var" "is_debuff"
+/// @DnDArgument : "op" "2"
+if(is_debuff > 0)
+{
+	/// @DnDAction : YoYo Games.Common.If_Expression
+	/// @DnDVersion : 1
+	/// @DnDHash : 4D7D799E
+	/// @DnDParent : 58001566
+	/// @DnDArgument : "expr" "alarm[0] == -1"
+	if(alarm[0] == -1)
+	{
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 7EB7F17D
+		/// @DnDParent : 4D7D799E
+		/// @DnDArgument : "steps" "is_debuff"
+		alarm_set(0, is_debuff);
+	}
+}

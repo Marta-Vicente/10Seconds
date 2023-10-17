@@ -104,3 +104,9 @@ walk_up_sprite = spr_zombie_walk_up;
 walk_down_sprite = spr_zombie_walk_down;
 defeat_side_object = obj_zombie_defeat_side;
 defeat_down_object = obj_zombie_defeat_down;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4CFDE966
+/// @DnDArgument : "var" "is_debuff"
+is_debuff = 0;
