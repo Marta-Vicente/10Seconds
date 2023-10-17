@@ -1,16 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Clickable",
+  "name": "base_tracking",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":84,"eventType":5,"isDnD":true,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":53,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":50,"eventType":6,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Towers",
+    "path": "folders/Objects/Towers and Buttons/Towers.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,9 +29,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite76",
-    "path": "sprites/Sprite76/Sprite76.yy",
+    "name": "spr_tower_base",
+    "path": "sprites/spr_tower_base/spr_tower_base.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
