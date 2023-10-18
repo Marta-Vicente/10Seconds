@@ -82,6 +82,7 @@
     {"name":"inst_25CA181","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_A008D4A","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_465FA68D","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_465FA68D","path":"rooms/rm_level_1/rm_level_1.yy",},
   ],
   "isDnd": false,
   "layers": [
