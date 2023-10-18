@@ -24,6 +24,7 @@
     {"name":"spr_tower_land_smoke_2","order":11,"path":"sprites/spr_tower_land_smoke_2/spr_tower_land_smoke_2.yy",},
     {"name":"obj_hud_coins","order":4,"path":"objects/obj_hud_coins/obj_hud_coins.yy",},
     {"name":"snd_frankenstein_death_02","order":36,"path":"sounds/snd_frankenstein_death_02/snd_frankenstein_death_02.yy",},
+    {"name":"Sprite77","order":7,"path":"sprites/Sprite77/Sprite77.yy",},
     {"name":"snd_death_zombie_03","order":40,"path":"sounds/snd_death_zombie_03/snd_death_zombie_03.yy",},
     {"name":"obj_zombie_defeat_side","order":8,"path":"objects/obj_zombie_defeat_side/obj_zombie_defeat_side.yy",},
     {"name":"spr_tree_blue","order":1,"path":"sprites/spr_tree_blue/spr_tree_blue.yy",},

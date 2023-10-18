@@ -1,9 +1,6 @@
 event_inherited();
 
-pathList[0] = Path2;
-pathList[1] = Path3;
-pathList[2] = Path4;
-pathList[3] = Path5;
+//pathList = {Path2, Path3, Path4, Path5};
 
 // Start creating a wave by creating an array and
 // filling it with zombies.
@@ -59,6 +56,7 @@ enemy_array[16] = obj_frankenstein;
 enemy_array[17] = obj_frankenstein;
 enemy_array[18] = obj_frankenstein;
 enemy_array[19] = obj_frankenstein;
+
 
 // Use are constructor to create a wave struct where
 // the first argument is the enemy array we just created

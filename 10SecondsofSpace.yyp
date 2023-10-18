@@ -82,6 +82,7 @@
     {"id":{"name":"spr_tower_land_smoke_2","path":"sprites/spr_tower_land_smoke_2/spr_tower_land_smoke_2.yy",},},
     {"id":{"name":"obj_hud_coins","path":"objects/obj_hud_coins/obj_hud_coins.yy",},},
     {"id":{"name":"snd_frankenstein_death_02","path":"sounds/snd_frankenstein_death_02/snd_frankenstein_death_02.yy",},},
+    {"id":{"name":"Sprite77","path":"sprites/Sprite77/Sprite77.yy",},},
     {"id":{"name":"snd_death_zombie_03","path":"sounds/snd_death_zombie_03/snd_death_zombie_03.yy",},},
     {"id":{"name":"obj_zombie_defeat_side","path":"objects/obj_zombie_defeat_side/obj_zombie_defeat_side.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},

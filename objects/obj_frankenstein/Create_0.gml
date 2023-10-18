@@ -28,7 +28,7 @@ health_offset_y = -190;
 
 // Start creating a wave by creating an array and
 // filling it with zombies.
-enemy_array = array_create(5, obj_zombie);
+/*enemy_array = array_create(5, obj_zombie);
 
 // Go through that new array and replace some zombies
 // with frankensteins (if you want to)
@@ -70,4 +70,4 @@ enemy_array[19] = obj_frankenstein;
 // Use are constructor to create a wave struct where
 // the first argument is the enemy array we just created
 // and the second argument is the delay between each enemy spawning
-var _new_wave = new WaveData(enemy_array, room_speed * 1.55);
+var _new_wave = new WaveData(enemy_array, room_speed * 1.55);*/

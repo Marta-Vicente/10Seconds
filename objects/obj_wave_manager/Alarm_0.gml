@@ -12,15 +12,20 @@ if(position < _length)
 
 	// Create a new instance of that enemy and save its
 	// id to a temporary variable so we can use it later
-	var _inst = instance_create_layer(x, y, layer, _new_enemy);
+	var random_index = random(360);
+	var x_pos = radius_of_screen *  cos(random_index) + center_x;
+	var y_pos = radius_of_screen * sin(random_index) + center_y;
+		
+	var _inst = instance_create_layer(x_pos, y_pos, layer, _new_enemy);
 
 	with(_inst) {
 		// Start the new enemy on the path
-		randomIndex = floor(random_range(0, 3));
 
 		// Choose which path to follow
-		level_path = other.pathList[randomIndex];
-		path_start(level_path, my_speed, path_action_stop, true);
+		/*level_path = other.pathList[randomIndex];
+		path_start(level_path, my_speed, path_action_stop, true);*/
+		
+		move_towards_point(obj_wave_manager.center_x, obj_wave_manager.center_y,  my_speed);
 	}
 
 	// Increase the position variable so that next time we spawn the next enemy
