@@ -12,7 +12,7 @@ if(flash_alpha > 0)
 // Updates health bar value from hp values as a number between 0 and 100
 health_bar = (hp / max_hp) * 100;
 
-// Check if this enemies hp is less than or equal to zero
+// Check if this enemies hp is    less than or equal to zero
 if(hp <= 0)
 {
 	// Give the player some money for destroying the enemey.

@@ -1,21 +1,10 @@
 // Set the enemy's speed
-// Because the enemy is on path, we need to use path_speed instead of speed
-//path_speed = my_speed;
+speed = my_speed;
 
-// Check if the enemies position on the path is greater than or equal to 1
-// which means that it is at the end of the path
-/*if(path_position >= 1)
+var centerSpriteX = x - sprite_get_xoffset(sprite_index) + sprite_width / 2;
+var centerSpriteY = y - sprite_get_yoffset( sprite_index) + sprite_height / 2;
+
+if (place_meeting(centerSpriteX, centerSpriteY, obj_house))
 {
-	// If the enemy is at the end of the path, then it has reached the village,
-	// so we should reduce the village hp.
-	reduce_village_hp(1);
-
-	// Destroy this enemy
-	instance_destroy();
-}*/
-
-var dist = point_distance(x, y, obj_wave_manager.center_x, obj_wave_manager.center_y);
-
-if(dist < 200){
-	instance_destroy();
+	my_speed = 0;
 }

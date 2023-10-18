@@ -19,13 +19,8 @@ if(position < _length)
 	var _inst = instance_create_layer(x_pos, y_pos, layer, _new_enemy);
 
 	with(_inst) {
-		// Start the new enemy on the path
-
-		// Choose which path to follow
-		/*level_path = other.pathList[randomIndex];
-		path_start(level_path, my_speed, path_action_stop, true);*/
-		
 		move_towards_point(obj_wave_manager.center_x, obj_wave_manager.center_y,  my_speed);
+
 	}
 
 	// Increase the position variable so that next time we spawn the next enemy
