@@ -13,3 +13,7 @@ window_set_cursor(cr_none);
 
 // Give the cursor a sprite
 cursor_sprite = spr_cursor;
+
+//fading between rooms
+fade = 1;
+fadeDirection = -1;

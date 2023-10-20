@@ -1,3 +1,7 @@
+// Fade in
+fade = 1;
+fadeDirection = -1;
+
 // Handle background music based on the room
 if(room == rm_menu)
 {

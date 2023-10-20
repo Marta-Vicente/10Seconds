@@ -32,9 +32,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_button_green",
-    "path": "sprites/spr_button_green/spr_button_green.yy",
+    "name": "new_button",
+    "path": "sprites/new_button/new_button.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "new_button",
+    "path": "sprites/new_button/new_button.yy",
+  },
   "visible": true,
 }
