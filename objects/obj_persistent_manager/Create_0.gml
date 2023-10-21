@@ -12,7 +12,7 @@ global.screen_shot_id = -1;
 window_set_cursor(cr_none);
 
 // Give the cursor a sprite
-cursor_sprite = spr_cursor;
+cursor_sprite = BluePointer;
 
 //fading between rooms
 fade = 1;
