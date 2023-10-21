@@ -73,29 +73,43 @@ else
 	/// @DnDArgument : "expr_2" "_money >= cost"
 	if(my_manager.confirmed && confirmed && _money >= cost)
 	{
-		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDAction : YoYo Games.Common.Function_Call
 		/// @DnDVersion : 1
-		/// @DnDHash : 343F87D1
+		/// @DnDHash : 1C856077
+		/// @DnDComment : Reduce the player's money by the cost of the tower's cost
 		/// @DnDParent : 3E069B35
-		/// @DnDArgument : "expr" "true"
-		/// @DnDArgument : "var" "Building"
-		Building = true;
+		/// @DnDArgument : "function" "adjust_money"
+		/// @DnDArgument : "arg" "-cost"
+		adjust_money(-cost);
 	
-		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDAction : YoYo Games.Common.Function_Call
 		/// @DnDVersion : 1
-		/// @DnDHash : 2393C097
+		/// @DnDHash : 5D609A38
+		/// @DnDComment : Create an instance of the tower
+		/// @DnDInput : 4
 		/// @DnDParent : 3E069B35
-		/// @DnDArgument : "expr" "60"
-		/// @DnDArgument : "var" "timer"
-		timer = 60;
+		/// @DnDArgument : "function" "instance_create_depth"
+		/// @DnDArgument : "arg" "my_manager.x"
+		/// @DnDArgument : "arg_1" "my_manager.y"
+		/// @DnDArgument : "arg_2" "depth"
+		/// @DnDArgument : "arg_3" "my_tower"
+		instance_create_depth(my_manager.x, my_manager.y, depth, my_tower);
 	
-		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
-		/// @DnDHash : 400176ED
+		/// @DnDHash : 75B6E946
+		/// @DnDComment : Destroy the current tower base
+		/// @DnDApplyTo : my_manager.my_tower
 		/// @DnDParent : 3E069B35
-		/// @DnDArgument : "steps" "room_speed"
-		/// @DnDArgument : "alarm" "2"
-		alarm_set(2, room_speed);
+		with(my_manager.my_tower) instance_destroy();
+	
+		/// @DnDAction : YoYo Games.Common.Function_Call
+		/// @DnDVersion : 1
+		/// @DnDHash : 114CE8D6
+		/// @DnDComment : Use the custom function to close the menu
+		/// @DnDParent : 3E069B35
+		/// @DnDArgument : "function" "close_menu"
+		close_menu();
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else

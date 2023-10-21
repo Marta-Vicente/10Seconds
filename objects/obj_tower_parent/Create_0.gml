@@ -8,18 +8,31 @@ event_inherited();
 /// @DnDVersion : 1
 /// @DnDHash : 3B5D6A88
 /// @DnDComment : cost: This variable holds the cost of the tower$(13_10)$(13_10)level: This variable holds the starting level of the tower$(13_10)$(13_10)max_level: This variable holds the max level of the tower$(13_10)$(13_10)range: This variable holds the tower's range
-/// @DnDInput : 4
+/// @DnDInput : 6
 /// @DnDArgument : "expr" "2"
 /// @DnDArgument : "expr_2" "3"
 /// @DnDArgument : "expr_3" "100"
+/// @DnDArgument : "expr_4" "true"
+/// @DnDArgument : "expr_5" "60"
 /// @DnDArgument : "var" "cost"
 /// @DnDArgument : "var_1" "level"
 /// @DnDArgument : "var_2" "max_level"
 /// @DnDArgument : "var_3" "range"
+/// @DnDArgument : "var_4" "Building"
+/// @DnDArgument : "var_5" "timer"
 cost = 2;
 level = 0;
 max_level = 3;
 range = 100;
+Building = true;
+timer = 60;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 0BAE662F
+/// @DnDArgument : "steps" "room_speed"
+/// @DnDArgument : "alarm" "2"
+alarm_set(2, room_speed);
 
 /// @DnDAction : YoYo Games.Random.Choose
 /// @DnDVersion : 1
