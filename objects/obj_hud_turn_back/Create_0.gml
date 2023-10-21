@@ -3,8 +3,8 @@
 /// @DnDHash : 65124205
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "true"
-/// @DnDArgument : "expr_1" "300"
+/// @DnDArgument : "expr_1" "600"
 /// @DnDArgument : "var" "can_use"
 /// @DnDArgument : "var_1" "cooldown"
 can_use = true;
-cooldown = 300;
+cooldown = 600;
