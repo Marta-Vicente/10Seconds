@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0A85B47A
-/// @DnDArgument : "var" "building"
+/// @DnDArgument : "var" "placing"
 /// @DnDArgument : "value" "true"
-if(building == true)
+if(placing == true)
 {
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1

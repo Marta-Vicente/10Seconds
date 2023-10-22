@@ -7,5 +7,5 @@ event_inherited();
 /// @DnDVersion : 1
 /// @DnDHash : 65A57C75
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "building"
-building = false;
+/// @DnDArgument : "var" "placing"
+placing = false;
