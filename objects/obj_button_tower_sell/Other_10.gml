@@ -63,17 +63,6 @@ else
 		/// @DnDApplyTo : my_manager.my_tower
 		/// @DnDParent : 64DBCC4F
 		with(my_manager.my_tower) {
-			/// @DnDAction : YoYo Games.Instances.Create_Instance
-			/// @DnDVersion : 1
-			/// @DnDHash : 19DFAEA2
-			/// @DnDComment : Create a new tower base where this tower is located
-			/// @DnDParent : 6E57A0C6
-			/// @DnDArgument : "xpos" "x"
-			/// @DnDArgument : "ypos" "y"
-			/// @DnDArgument : "objectid" "obj_tower_base"
-			/// @DnDSaveInfo : "objectid" "obj_tower_base"
-			instance_create_layer(x, y, "Instances", obj_tower_base);
-		
 			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 			/// @DnDVersion : 1
 			/// @DnDHash : 7D6F5522
