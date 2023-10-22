@@ -242,6 +242,7 @@
     {"id":{"name":"obj_Tower3","path":"objects/obj_Tower3/obj_Tower3.yy",},},
     {"id":{"name":"Tree1","path":"sprites/Tree1/Tree1.yy",},},
     {"id":{"name":"spr_arrow_emit_2","path":"sprites/spr_arrow_emit_2/spr_arrow_emit_2.yy",},},
+    {"id":{"name":"obj_tree_parent","path":"objects/obj_tree_parent/obj_tree_parent.yy",},},
     {"id":{"name":"Sprite79","path":"sprites/Sprite79/Sprite79.yy",},},
     {"id":{"name":"snd_tower_build_01","path":"sounds/snd_tower_build_01/snd_tower_build_01.yy",},},
     {"id":{"name":"spr_tower_land_ring","path":"sprites/spr_tower_land_ring/spr_tower_land_ring.yy",},},

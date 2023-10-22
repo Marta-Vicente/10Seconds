@@ -9,7 +9,10 @@
     "name": "Environment",
     "path": "folders/Objects/Environment.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_tree_parent",
+    "path": "objects/obj_tree_parent/obj_tree_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
