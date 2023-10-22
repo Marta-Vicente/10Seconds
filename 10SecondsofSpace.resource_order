@@ -1,10 +1,13 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"obj_hud_attack_speed","order":2,"path":"objects/obj_hud_attack_speed/obj_hud_attack_speed.yy",},
     {"name":"obj_hud_build","order":1,"path":"objects/obj_hud_build/obj_hud_build.yy",},
     {"name":"image_removebg_preview","order":1,"path":"sprites/image_removebg_preview/image_removebg_preview.yy",},
     {"name":"_668615","order":1,"path":"sprites/_668615/_668615.yy",},
+    {"name":"as_buff_power","order":1,"path":"objects/as_buff_power/as_buff_power.yy",},
     {"name":"obj_tree_parent","order":1,"path":"objects/obj_tree_parent/obj_tree_parent.yy",},
+    {"name":"Attack_Speed","order":2,"path":"sprites/Attack_Speed/Attack_Speed.yy",},
     {"name":"NatureNoise","order":1,"path":"sounds/NatureNoise/NatureNoise.yy",},
   ],
 }

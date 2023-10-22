@@ -61,7 +61,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.8.2.106",
   },
   "resources": [
     {"id":{"name":"snd_frankenstein_death_01","path":"sounds/snd_frankenstein_death_01/snd_frankenstein_death_01.yy",},},
@@ -94,6 +94,7 @@
     {"id":{"name":"obj_Tree2","path":"objects/obj_Tree2/obj_Tree2.yy",},},
     {"id":{"name":"spr_tree_blue","path":"sprites/spr_tree_blue/spr_tree_blue.yy",},},
     {"id":{"name":"snd_villager_death_01","path":"sounds/snd_villager_death_01/snd_villager_death_01.yy",},},
+    {"id":{"name":"obj_hud_attack_speed","path":"objects/obj_hud_attack_speed/obj_hud_attack_speed.yy",},},
     {"id":{"name":"spr_tower_background","path":"sprites/spr_tower_background/spr_tower_background.yy",},},
     {"id":{"name":"spr_zombie_defeat_down","path":"sprites/spr_zombie_defeat_down/spr_zombie_defeat_down.yy",},},
     {"id":{"name":"snd_zombie_groan_02","path":"sounds/snd_zombie_groan_02/snd_zombie_groan_02.yy",},},
@@ -234,6 +235,7 @@
     {"id":{"name":"snd_villager_death_06","path":"sounds/snd_villager_death_06/snd_villager_death_06.yy",},},
     {"id":{"name":"Tree2","path":"sprites/Tree2/Tree2.yy",},},
     {"id":{"name":"_668615","path":"sprites/_668615/_668615.yy",},},
+    {"id":{"name":"as_buff_power","path":"objects/as_buff_power/as_buff_power.yy",},},
     {"id":{"name":"obj_tower_archer_top","path":"objects/obj_tower_archer_top/obj_tower_archer_top.yy",},},
     {"id":{"name":"spr_tombstone","path":"sprites/spr_tombstone/spr_tombstone.yy",},},
     {"id":{"name":"Invisible","path":"sprites/Invisible/Invisible.yy",},},
@@ -273,6 +275,7 @@
     {"id":{"name":"seq_tower_sell","path":"sequences/seq_tower_sell/seq_tower_sell.yy",},},
     {"id":{"name":"spr_arc_hit","path":"sprites/spr_arc_hit/spr_arc_hit.yy",},},
     {"id":{"name":"spr_fence_straight_2","path":"sprites/spr_fence_straight_2/spr_fence_straight_2.yy",},},
+    {"id":{"name":"Attack_Speed","path":"sprites/Attack_Speed/Attack_Speed.yy",},},
     {"id":{"name":"obj_arc_new","path":"objects/obj_arc_new/obj_arc_new.yy",},},
     {"id":{"name":"snd_music_menu","path":"sounds/snd_music_menu/snd_music_menu.yy",},},
     {"id":{"name":"Clickable","path":"objects/Clickable/Clickable.yy",},},
