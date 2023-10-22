@@ -9,10 +9,7 @@
     "name": "Environment",
     "path": "folders/Objects/Environment.yy",
   },
-  "parentObjectId": {
-    "name": "obj_environment_parent",
-    "path": "objects/obj_environment_parent/obj_environment_parent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_house",
-    "path": "sprites/spr_house/spr_house.yy",
+    "name": "image_removebg_preview",
+    "path": "sprites/image_removebg_preview/image_removebg_preview.yy",
   },
   "spriteMaskId": null,
   "visible": true,

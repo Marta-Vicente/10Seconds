@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_zombie_walk_side",
-    "path": "sprites/spr_zombie_walk_side/spr_zombie_walk_side.yy",
+    "name": "spr_zombie_defeat_side",
+    "path": "sprites/spr_zombie_defeat_side/spr_zombie_defeat_side.yy",
   },
   "spriteMaskId": null,
   "visible": true,

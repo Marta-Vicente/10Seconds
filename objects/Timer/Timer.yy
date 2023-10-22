@@ -33,10 +33,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"timeUntilChange","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"4","varType":0,},
   ],
   "solid": false,
-  "spriteId": {
-    "name": "Sprite79",
-    "path": "sprites/Sprite79/Sprite79.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
