@@ -9,17 +9,26 @@ if(position < _length)
 {
 	// Get the next enemy in the enemy_array
 	var _new_enemy = current_wave_struct.enemy_array[position];
-
-	// Create a new instance of that enemy and save its
-	// id to a temporary variable so we can use it later
-	var random_index = random(360);
+	
+	//Create random start position
+	/*var random_index = random(360);
 	var x_pos = radius_of_screen *  cos(random_index) + center_x;
 	var y_pos = radius_of_screen * sin(random_index) + center_y;
+	var _inst = instance_create_layer(x_pos, y_pos, layer, _new_enemy);*/
 		
-	var _inst = instance_create_layer(x_pos, y_pos, layer, _new_enemy);
-
+	//PATHS
+	var _inst = instance_create_layer(x, y, layer, _new_enemy);
+	
 	with(_inst) {
-		move_towards_point(obj_wave_manager.center_x, obj_wave_manager.center_y,  my_speed);
+		//PATHS
+		// Choose which path to follow
+		randomIndex = floor(random_range(0, 3+1));
+		
+		level_path = other.pathList[randomIndex];
+		path_start(level_path, my_speed, path_action_stop, true);
+		
+		//RANDOM
+		//move_towards_point(obj_wave_manager.center_x, obj_wave_manager.center_y,  my_speed);
 
 	}
 

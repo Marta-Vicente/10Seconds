@@ -1,6 +1,7 @@
 event_inherited();
 
-//pathList = {Path2, Path3, Path4, Path5};
+//PATHS
+pathList = [Path2, Path3, Path4, Path5];
 
 // Start creating a wave by creating an array and
 // filling it with zombies.
