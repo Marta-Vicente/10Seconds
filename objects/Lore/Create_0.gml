@@ -1,0 +1,40 @@
+/// @description Insert description here
+// You can write your code in this editor
+value_to_draw = "A long time ago, a metheor has fallen on a vast plain. \n The humans settled on that plain were scared at first, \n but decided to inspect this strange object that came from the sky. \n They discovered that this metheor had technology unlike any other they ever seen... \n It allows them to bend time! \n The humans decide to settle the tribe around this magical crater.\n But the other tribes feel jealous of these new powers and plan to attack all at once.\n The Time Tribe must defend itself...";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
