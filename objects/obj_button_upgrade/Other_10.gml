@@ -128,13 +128,12 @@ else
 		/// @DnDApplyTo : my_manager.my_tower
 		/// @DnDParent : 021FA1FF
 		with(my_manager.my_tower) {
-			/// @DnDAction : YoYo Games.Instances.Set_Alarm
+			/// @DnDAction : YoYo Games.Instances.Call_User_Event
 			/// @DnDVersion : 1
-			/// @DnDHash : 7F49EECA
+			/// @DnDHash : 7984621C
 			/// @DnDParent : 1543403A
-			/// @DnDArgument : "steps" "10"
-			/// @DnDArgument : "alarm" "1"
-			alarm_set(1, 10);
+			/// @DnDArgument : "event" "1"
+			event_user(1);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Function_Call

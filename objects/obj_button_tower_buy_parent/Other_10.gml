@@ -75,7 +75,7 @@ else
 	{
 		/// @DnDAction : YoYo Games.Common.Function_Call
 		/// @DnDVersion : 1
-		/// @DnDHash : 1C856077
+		/// @DnDHash : 3E877725
 		/// @DnDComment : Reduce the player's money by the cost of the tower's cost
 		/// @DnDParent : 3E069B35
 		/// @DnDArgument : "function" "adjust_money"
@@ -84,7 +84,7 @@ else
 	
 		/// @DnDAction : YoYo Games.Common.Function_Call
 		/// @DnDVersion : 1
-		/// @DnDHash : 5D609A38
+		/// @DnDHash : 6C3719B5
 		/// @DnDComment : Create an instance of the tower
 		/// @DnDInput : 4
 		/// @DnDParent : 3E069B35
@@ -97,7 +97,7 @@ else
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
-		/// @DnDHash : 75B6E946
+		/// @DnDHash : 2C9E9A19
 		/// @DnDComment : Destroy the current tower base
 		/// @DnDApplyTo : my_manager.my_tower
 		/// @DnDParent : 3E069B35
@@ -105,7 +105,7 @@ else
 	
 		/// @DnDAction : YoYo Games.Common.Function_Call
 		/// @DnDVersion : 1
-		/// @DnDHash : 114CE8D6
+		/// @DnDHash : 4E9D5CE3
 		/// @DnDComment : Use the custom function to close the menu
 		/// @DnDParent : 3E069B35
 		/// @DnDArgument : "function" "close_menu"
