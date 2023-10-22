@@ -1,4 +1,7 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_hud_build","order":1,"path":"objects/obj_hud_build/obj_hud_build.yy",},
+    {"name":"_668615","order":1,"path":"sprites/_668615/_668615.yy",},
+  ],
 }

@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_tower_archer_top",
-    "path": "sprites/spr_tower_archer_top/spr_tower_archer_top.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": false,
 }

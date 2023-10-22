@@ -9,7 +9,6 @@ if(!(global.menu_lock))
 	/// @DnDAction : YoYo Games.Instances.Call_User_Event
 	/// @DnDVersion : 1
 	/// @DnDHash : 63E2CCC4
-	/// @DnDComment : If it is not, run event_user(0)
 	/// @DnDParent : 61D6EA27
 	event_user(0);
 }
