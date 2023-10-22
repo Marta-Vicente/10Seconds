@@ -2,5 +2,6 @@
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"obj_tree_parent","order":1,"path":"objects/obj_tree_parent/obj_tree_parent.yy",},
+    {"name":"NatureNoise","order":1,"path":"sounds/NatureNoise/NatureNoise.yy",},
   ],
 }

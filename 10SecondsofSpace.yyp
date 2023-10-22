@@ -295,6 +295,7 @@
     {"id":{"name":"obj_icon","path":"objects/obj_icon/obj_icon.yy",},},
     {"id":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},},
     {"id":{"name":"spr_grave_1","path":"sprites/spr_grave_1/spr_grave_1.yy",},},
+    {"id":{"name":"NatureNoise","path":"sounds/NatureNoise/NatureNoise.yy",},},
     {"id":{"name":"Object62","path":"objects/Object62/Object62.yy",},},
     {"id":{"name":"spr_level_star","path":"sprites/spr_level_star/spr_level_star.yy",},},
     {"id":{"name":"seq_arc_fire","path":"sequences/seq_arc_fire/seq_arc_fire.yy",},},
