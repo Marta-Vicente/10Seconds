@@ -11,7 +11,7 @@ if _num > 0
     for (var i = 0; i < _num; ++i;)
     {
 		if _list[| i].is_debuff == 0{
-			_list[| i].my_speed *= slowdown_multi;
+			_list[| i].path_speed = _list[| i].my_speed * slowdown_multi;
 			_list[| i].is_debuff = slowdown_timer;
 			if _turnback_b.can_use == true{
 				_turnback_b.can_use = false

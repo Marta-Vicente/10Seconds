@@ -12,4 +12,4 @@
 // Inherit the parent event
 event_inherited();
 
-my_speed = 1.1
+path_speed = my_speed 
