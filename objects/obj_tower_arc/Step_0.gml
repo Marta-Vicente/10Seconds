@@ -1,3 +1,5 @@
+event_inherited()
+
 // Set depth based on its y value
 depth = -y;
 
@@ -63,7 +65,7 @@ if(!building){
 			var _layer = layer_create(depth - 1);
 	
 			// Create the fire fade sequence
-			layer_sequence_create(_layer, x, y , seq_arc_fire_fade);
+			//layer_sequence_create(_layer, x, y , seq_arc_fire_fade);
 	
 			// Create the fire fade sequence
 			var _seq = layer_sequence_create(_layer, x, y - 134, seq_arc_fire);

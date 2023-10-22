@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_tower_archer_base",
-    "path": "sprites/spr_tower_archer_base/spr_tower_archer_base.yy",
+    "name": "Tower2",
+    "path": "sprites/Tower2/Tower2.yy",
   },
   "spriteMaskId": null,
   "visible": true,

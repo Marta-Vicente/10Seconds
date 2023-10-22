@@ -86,7 +86,7 @@
     {"name":"inst_3952270","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_4EF4BD6F","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_60C4685F","path":"rooms/rm_level_1/rm_level_1.yy",},
-    {"name":"inst_789FC75","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_7AFFF845","path":"rooms/rm_level_1/rm_level_1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -182,7 +182,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3952270","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Tree1","path":"objects/obj_Tree1/obj_Tree1.yy",},"properties":[],"rotation":0.0,"scaleX":0.79999983,"scaleY":0.79999983,"x":159.99997,"y":-300.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4EF4BD6F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Tree1","path":"objects/obj_Tree1/obj_Tree1.yy",},"properties":[],"rotation":0.0,"scaleX":0.7799998,"scaleY":0.7799998,"x":1440.0001,"y":-200.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_60C4685F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Tree2","path":"objects/obj_Tree2/obj_Tree2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":100.0,"y":820.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_789FC75","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Tower1","path":"objects/obj_Tower1/obj_Tower1.yy",},"properties":[],"rotation":0.0,"scaleX":2.1624062,"scaleY":2.1624064,"x":880.0,"y":400.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7AFFF845","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tower_archer","path":"objects/obj_tower_archer/obj_tower_archer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":880.0,"y":400.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Road","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_1501C35E","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_path_horizontal","path":"sprites/spr_path_horizontal/spr_path_horizontal.yy",},"x":760.0,"y":400.0,},
