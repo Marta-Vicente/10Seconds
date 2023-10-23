@@ -12,7 +12,7 @@ if (place_meeting(x,y,obj_tower_parent))
 	reduce_village_hp(1);
 	instance_destroy();
 } else {
-	path_speed = 1;
-	is_attacking = false
-	tower_attacking = pointer_null
+	path_speed = my_speed;
+	is_attacking = false;
+	tower_attacking = pointer_null;
 }
