@@ -7,19 +7,25 @@ event_inherited();
 /// @DnDVersion : 1
 /// @DnDHash : 28BF3BFC
 /// @DnDComment : cost: This variable holds the cost of the tower$(13_10)$(13_10)range: This variable holds the tower's range$(13_10)$(13_10)ready_to_fire: This variable says whether or not the tower is ready to fire$(13_10)$(13_10)fire_delay: This variable stores the amount of frames to wait between firing
-/// @DnDInput : 4
+/// @DnDInput : 6
 /// @DnDArgument : "expr" "15"
 /// @DnDArgument : "expr_1" "260"
 /// @DnDArgument : "expr_2" "false"
 /// @DnDArgument : "expr_3" "room_speed * 2"
+/// @DnDArgument : "expr_4" "-250"
+/// @DnDArgument : "expr_5" "-30"
 /// @DnDArgument : "var" "cost"
 /// @DnDArgument : "var_1" "range"
 /// @DnDArgument : "var_2" "ready_to_fire"
 /// @DnDArgument : "var_3" "fire_delay"
+/// @DnDArgument : "var_4" "health_offset_y"
+/// @DnDArgument : "var_5" "health_offset_x"
 cost = 15;
 range = 260;
 ready_to_fire = false;
 fire_delay = room_speed * 2;
+health_offset_y = -250;
+health_offset_x = -30;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

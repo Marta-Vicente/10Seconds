@@ -7,12 +7,14 @@ event_inherited();
 /// @DnDVersion : 1
 /// @DnDHash : 591548DD
 /// @DnDComment : cost: This variable holds the cost of the tower$(13_10)$(13_10)range: This variable holds the tower's range$(13_10)$(13_10)ready_to_fire: This variable says whether or not the tower is ready to fire$(13_10)$(13_10)fire_delay: This variable stores the amount of frames to wait between firing$(13_10)$(13_10)chain_amount: This variable holds how often the arc can chain$(13_10)$(13_10)power_level: This variable holds the arc tower's power leve. It can fire when it reaches 1$(13_10)$(13_10)power_charge: This variable controls how fast the power_level is charged up
-/// @DnDInput : 7
+/// @DnDInput : 9
 /// @DnDArgument : "expr" "30"
 /// @DnDArgument : "expr_1" "260"
 /// @DnDArgument : "expr_2" "false"
 /// @DnDArgument : "expr_3" "room_speed * 2.5"
 /// @DnDArgument : "expr_6" "0.02"
+/// @DnDArgument : "expr_7" "-325"
+/// @DnDArgument : "expr_8" "-30"
 /// @DnDArgument : "var" "cost"
 /// @DnDArgument : "var_1" "range"
 /// @DnDArgument : "var_2" "ready_to_fire"
@@ -20,6 +22,8 @@ event_inherited();
 /// @DnDArgument : "var_4" "chain_amount"
 /// @DnDArgument : "var_5" "power_level"
 /// @DnDArgument : "var_6" "power_charge"
+/// @DnDArgument : "var_7" "health_offset_y"
+/// @DnDArgument : "var_8" "health_offset_x"
 cost = 30;
 range = 260;
 ready_to_fire = false;
@@ -27,6 +31,8 @@ fire_delay = room_speed * 2.5;
 chain_amount = 0;
 power_level = 0;
 power_charge = 0.02;
+health_offset_y = -325;
+health_offset_x = -30;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

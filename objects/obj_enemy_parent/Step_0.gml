@@ -57,3 +57,14 @@ else
 // Save it's current x and y
 x_previous = x;
 y_previous = y;
+
+if (is_attacking) {
+	attacking_cooldown -= 1
+	if(attacking_cooldown == 0){
+		attacking_cooldown = time_between_attacks
+		with(tower_attacking){
+			event_user(3)
+		}
+	}
+}
+	

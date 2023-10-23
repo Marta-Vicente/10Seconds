@@ -47,3 +47,8 @@ defeat_down_object = obj_zombie_defeat_down;
 /// @DnDHash : 4CFDE966
 /// @DnDArgument : "var" "is_debuff"
 is_debuff = 0;
+
+time_between_attacks = 45;
+is_attacking = false;
+tower_attacking = pointer_null
+attacking_cooldown = time_between_attacks;
