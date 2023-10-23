@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Power_sprite",
-    "path": "sprites/Power_sprite/Power_sprite.yy",
+    "name": "ampulheta",
+    "path": "sprites/ampulheta/ampulheta.yy",
   },
   "spriteMaskId": null,
   "visible": true,

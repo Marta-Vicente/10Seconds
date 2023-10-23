@@ -4,6 +4,8 @@
     {"name":"obj_hud_attack_speed","order":2,"path":"objects/obj_hud_attack_speed/obj_hud_attack_speed.yy",},
     {"name":"obj_hud_build","order":1,"path":"objects/obj_hud_build/obj_hud_build.yy",},
     {"name":"obj_hud_faster_build","order":3,"path":"objects/obj_hud_faster_build/obj_hud_faster_build.yy",},
+    {"name":"advance","order":5,"path":"sprites/advance/advance.yy",},
+    {"name":"ampulheta","order":4,"path":"sprites/ampulheta/ampulheta.yy",},
     {"name":"build_buff_power","order":2,"path":"objects/build_buff_power/build_buff_power.yy",},
     {"name":"image_removebg_preview","order":1,"path":"sprites/image_removebg_preview/image_removebg_preview.yy",},
     {"name":"_668615","order":1,"path":"sprites/_668615/_668615.yy",},
